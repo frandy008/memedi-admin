@@ -1,6 +1,6 @@
 # Memedi Admin
 
-template ini dibuat seringan mungkin dengan meminimalisir penggunaan library-library yang jarang dibutuhkan.
+Template ini dibuat seringan mungkin dengan meminimalisir penggunaan library-library yang jarang dibutuhkan.
 
 Maaf kalau pengguaan nya kurang jelas dan belum ada dokumentasi nya. Kedepan nya akan di update dan di tambahkan dokumentasi nya.
 
