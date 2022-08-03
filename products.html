@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="IMFDP" />
-    <title>Dashboard</title>
+    <title>Products</title>
 
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/main/css/dashboard.css" rel="stylesheet" />
@@ -121,32 +121,85 @@
           <div
             class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
           >
-            <h1 class="h2">Dashboard</h1>
-            <div class="btn-toolbar mb-2 mb-md-0">
-              <div class="btn-group me-2">
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  Share
-                </button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  Export
-                </button>
+            <h1 class="h2">Products</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-3 my-1">
+              <div class="card">
+                <img
+                  src="https://source.unsplash.com/random/200x100?coffee,tea&orientation=landscape&1"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">
+                    Product detail. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm btn-delete"
+                    ><i class="bi bi-trash"></i> Delete</a
+                  >
+                </div>
               </div>
-              <button
-                type="button"
-                class="btn btn-sm btn-outline-secondary dropdown-toggle"
-              >
-                <span data-feather="calendar" class="align-text-bottom"></span>
-                This week
-              </button>
+            </div>
+
+            <div class="col-md-3 my-1">
+              <div class="card">
+                <img
+                  src="https://source.unsplash.com/random/200x100?coffee,tea&orientation=landscape&2"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">
+                    Product detail. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm btn-delete"
+                    ><i class="bi bi-trash"></i> Delete</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 my-1">
+              <div class="card">
+                <img
+                  src="https://source.unsplash.com/random/200x100?coffee,tea&orientation=landscape&3"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">
+                    Product detail. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm btn-delete"
+                    ><i class="bi bi-trash"></i> Delete</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 my-1">
+              <div class="card">
+                <img
+                  src="https://source.unsplash.com/random/200x100?coffee,tea&orientation=landscape&4"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">
+                    Product detail. Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm btn-delete"
+                    ><i class="bi bi-trash"></i> Delete</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
-
-          <canvas
-            class="my-4 w-100"
-            id="myChart"
-            width="900"
-            height="380"
-          ></canvas>
         </main>
       </div>
     </div>
@@ -164,6 +217,8 @@
       integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
       crossorigin="anonymous"
     ></script>
-    <script src="assets/main/js/dashboard.js"></script>
+    <script>
+      feather.replace({ "aria-hidden": "true" });
+    </script>
   </body>
 </html>
