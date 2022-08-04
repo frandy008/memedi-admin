@@ -12,4 +12,4 @@ Template ini sudah include :
 - Chart Js (Belum digunakan)
 
 Bagi yang mau memberikan masukan-masukan bisa DM Via Instagram :
-https://instagram.com/im_frandy_
+"https://instagram.com/im_frandy_"
