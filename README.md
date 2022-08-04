@@ -11,5 +11,4 @@ Template ini sudah include :
 - DataTables
 - Chart Js (Belum digunakan)
 
-Bagi yang mau memberikan masukan-masukan bisa DM Via Instagram :
-"https://instagram.com/im_frandy_"
+Bagi yang mau memberikan masukan-masukan bisa DM <a href="https://instagram.com/im_frandy_">Instagram</a>
